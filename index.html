@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Joseph","children":[{"content":"Early Life","children":[{"content":"Son of Jacob and Rachel","children":[{"content":"Eleventh son of Jacob","children":[],"payload":{"lines":"4,5"}},{"content":"First son of Rachel","children":[],"payload":{"lines":"5,6"}},{"content":"Born in Paddan Aram","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"3,4"}},{"content":"Favored by Jacob","children":[{"content":"Received a special coat of many colors","children":[],"payload":{"lines":"9,10"}},{"content":"Caused jealousy among his brothers","children":[],"payload":{"lines":"10,12"}}],"payload":{"lines":"8,9"}}],"payload":{"lines":"2,3"}},{"content":"Dreams and Visions","children":[{"content":"Sheaves of Wheat Dream","children":[{"content":"Joseph's sheaf stood upright","children":[],"payload":{"lines":"14,15"}},{"content":"His brothers' sheaves bowed down to his","children":[],"payload":{"lines":"15,17"}}],"payload":{"lines":"13,14"}},{"content":"Sun, Moon, and Stars Dream","children":[{"content":"Sun, moon, and eleven stars bowed down to Joseph","children":[],"payload":{"lines":"18,19"}},{"content":"Symbolized his family's future subservience to him","children":[],"payload":{"lines":"19,21"}}],"payload":{"lines":"17,18"}}],"payload":{"lines":"12,13"}},{"content":"Sold into Slavery","children":[{"content":"Brothers' Jealousy","children":[{"content":"Plotted to kill Joseph","children":[],"payload":{"lines":"23,24"}},{"content":"Reuben intervened, suggesting to throw him into a pit","children":[],"payload":{"lines":"24,26"}}],"payload":{"lines":"22,23"}},{"content":"Sold to Ishmaelites","children":[{"content":"Judah proposed selling Joseph instead of killing him","children":[],"payload":{"lines":"27,28"}},{"content":"Sold for twenty pieces of silver","children":[],"payload":{"lines":"28,29"}},{"content":"Taken to Egypt","children":[],"payload":{"lines":"29,31"}}],"payload":{"lines":"26,27"}}],"payload":{"lines":"21,22"}},{"content":"Life in Egypt","children":[{"content":"Potiphar's House","children":[{"content":"Became a slave in Potiphar's house","children":[],"payload":{"lines":"33,34"}},{"content":"Found favor with Potiphar and was put in charge of the household","children":[],"payload":{"lines":"34,36"}}],"payload":{"lines":"32,33"}},{"content":"False Accusation","children":[{"content":"Potiphar's wife tried to seduce Joseph","children":[],"payload":{"lines":"37,38"}},{"content":"Joseph refused and fled, leaving his cloak behind","children":[],"payload":{"lines":"38,39"}},{"content":"Potiphar's wife accused Joseph of attempted rape","children":[],"payload":{"lines":"39,41"}}],"payload":{"lines":"36,37"}},{"content":"Imprisonment","children":[{"content":"Joseph was sent to prison","children":[],"payload":{"lines":"42,43"}},{"content":"Gained favor with the prison warden","children":[],"payload":{"lines":"43,44"}},{"content":"Put in charge of the prisoners","children":[],"payload":{"lines":"44,46"}}],"payload":{"lines":"41,42"}}],"payload":{"lines":"31,32"}},{"content":"Interpreting Dreams","children":[{"content":"Pharaoh's Cupbearer and Baker","children":[{"content":"Interpreted their dreams while in prison","children":[],"payload":{"lines":"48,49"}},{"content":"Cupbearer restored to his position","children":[],"payload":{"lines":"49,50"}},{"content":"Baker executed","children":[],"payload":{"lines":"50,52"}}],"payload":{"lines":"47,48"}},{"content":"Pharaoh's Dreams","children":[{"content":"Pharaoh dreamt of seven lean cows eating seven fat cows","children":[],"payload":{"lines":"53,54"}},{"content":"Dreamt of seven thin ears of grain swallowing seven full ears","children":[],"payload":{"lines":"54,55"}},{"content":"Joseph interpreted the dreams as seven years of plenty followed by seven years of famine","children":[],"payload":{"lines":"55,57"}}],"payload":{"lines":"52,53"}}],"payload":{"lines":"46,47"}},{"content":"Rise to Power","children":[{"content":"Appointed as Vizier","children":[{"content":"Pharaoh recognized Joseph's wisdom","children":[],"payload":{"lines":"59,60"}},{"content":"Put in charge of Egypt's food supply and distribution","children":[],"payload":{"lines":"60,62"}}],"payload":{"lines":"58,59"}},{"content":"Preparation for Famine","children":[{"content":"Stored grain during the seven years of plenty","children":[],"payload":{"lines":"63,64"}},{"content":"Prepared Egypt for the seven years of famine","children":[],"payload":{"lines":"64,66"}}],"payload":{"lines":"62,63"}}],"payload":{"lines":"57,58"}},{"content":"Reunion with Family","children":[{"content":"Brothers' First Visit","children":[{"content":"Brothers came to Egypt to buy grain during the famine","children":[],"payload":{"lines":"68,69"}},{"content":"Joseph recognized them but disguised himself","children":[],"payload":{"lines":"69,70"}},{"content":"Accused them of being spies and demanded they bring Benjamin","children":[],"payload":{"lines":"70,72"}}],"payload":{"lines":"67,68"}},{"content":"Second Visit and Revelation","children":[{"content":"Brothers returned with Benjamin","children":[],"payload":{"lines":"73,74"}},{"content":"Joseph tested their character and loyalty","children":[],"payload":{"lines":"74,75"}},{"content":"Revealed his true identity to his brothers","children":[],"payload":{"lines":"75,77"}}],"payload":{"lines":"72,73"}},{"content":"Family Moves to Egypt","children":[{"content":"Joseph sent for his father and entire family","children":[],"payload":{"lines":"78,79"}},{"content":"Pharaoh welcomed them and gave them the land of Goshen","children":[],"payload":{"lines":"79,80"}},{"content":"Jacob's family settled in Egypt","children":[],"payload":{"lines":"80,82"}}],"payload":{"lines":"77,78"}}],"payload":{"lines":"66,67"}},{"content":"Legacy","children":[{"content":"Preservation of Israel","children":[{"content":"Joseph's wisdom and leadership saved his family from famine","children":[],"payload":{"lines":"84,85"}},{"content":"Allowed Israel to grow and multiply in Egypt","children":[],"payload":{"lines":"85,87"}}],"payload":{"lines":"83,84"}},{"content":"Forgiveness and Reconciliation","children":[{"content":"Joseph forgave his brothers for their past actions","children":[],"payload":{"lines":"88,89"}},{"content":"Demonstrated the importance of forgiveness and trust in God's plan","children":[],"payload":{"lines":"89,90"}}],"payload":{"lines":"87,88"}}],"payload":{"lines":"82,83"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

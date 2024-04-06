@@ -1,12 +1,2 @@
-/* custom.css file content */
-* {
-  margin: 0;
-  padding: 0;
-}
-#mindmap {
-  display: block;
-  width: 100%;
-  height: auto;
-  min-height: 100vh; /* This ensures it takes at least the height of the viewport */
-}
+
 

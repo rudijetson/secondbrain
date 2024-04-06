@@ -1,51 +1,10 @@
-/* Reset some basic elements */
-html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Arial', sans-serif; /* You can change this to any font you like */
+/* custom.css file content */
+* {
+  margin: 0;
+  padding: 0;
 }
-
-/* Set the default background color and text color */
-body {
-  background-color: #fff; /* White background */
-  color: #333; /* Dark grey text */
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
-
-/* Style for main content area */
-.main-content {
-  margin: 10px;
-  padding: 10px;
-}
-
-/* Custom styles for headers */
-h1 {
-  color: #000; /* Black color for h1 headers */
-  text-align: center; /* Center-align the text */
-}
-
-/* Custom styles for links */
-a {
-  color: #0066cc; /* Blue color for links */
-  text-decoration: none; /* No underline on links */
-}
-
-a:hover {
-  text-decoration: underline; /* Underline on hover */
-}
-
-/* Custom styles for buttons */
-button {
-  background-color: #008cba; /* Blue background for buttons */
-  color: #ffffff; /* White text for buttons */
-  padding: 10px 15px; /* Top/bottom padding of 10px and left/right padding of 15px */
-  border: none;
-  border-radius: 5px; /* Rounded corners for buttons */
-  cursor: pointer; /* Mouse cursor turns to pointer when over button */
-}
-
-button:hover {
-  background-color: #005f73; /* Darker blue on hover */
-}
-
-/* Add more custom styles below */
-/* ... */

@@ -1,2 +1,53 @@
 
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+nav#navbar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav#navbar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav#navbar ul li a.active, nav#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"The Old Testament","children":[{"content":"Introduction","children":[{"content":"Definition and Significance","children":[],"payload":{"lines":"3,4"}},{"content":"Place in the Christian and Jewish Faiths","children":[],"payload":{"lines":"4,5"}},{"content":"Structure and Division","children":[],"payload":{"lines":"5,7"}}],"payload":{"lines":"2,3"}},{"content":"Historical Background","children":[{"content":"Origins and Authorship","children":[],"payload":{"lines":"8,9"}},{"content":"Timeline and Setting","children":[],"payload":{"lines":"9,10"}},{"content":"Ancient Near Eastern Context","children":[],"payload":{"lines":"10,12"}}],"payload":{"lines":"7,8"}},{"content":"Division of Texts","children":[{"content":"The Torah or Pentateuch","children":[{"content":"Genesis: The Creation, The Fall, The Flood, The Patriarchs","children":[],"payload":{"lines":"14,15"}},{"content":"Exodus: The Story of Moses, The Exodus from Egypt, The Giving of the Law","children":[],"payload":{"lines":"15,16"}},{"content":"Leviticus: Laws and Rituals","children":[],"payload":{"lines":"16,17"}},{"content":"Numbers: The Wilderness Wanderings","children":[],"payload":{"lines":"17,18"}},{"content":"Deuteronomy: Moses' Final Speeches and Death","children":[],"payload":{"lines":"18,20"}}],"payload":{"lines":"13,14"}},{"content":"The Historical Books","children":[{"content":"Joshua: The Conquest of Canaan","children":[],"payload":{"lines":"21,22"}},{"content":"Judges: The Cycle of Sin and Deliverance","children":[],"payload":{"lines":"22,23"}},{"content":"Ruth: The Story of Loyalty and Redemption","children":[],"payload":{"lines":"23,24"}},{"content":"1 and 2 Samuel: Establishment of the Monarchy, Saul and David","children":[],"payload":{"lines":"24,25"}},{"content":"1 and 2 Kings: Solomon, Division of the Kingdom, Exile","children":[],"payload":{"lines":"25,26"}},{"content":"1 and 2 Chronicles: A Parallel Account of 1 and 2 Samuel and Kings","children":[],"payload":{"lines":"26,27"}},{"content":"Ezra and Nehemiah: Return from Exile and Rebuilding of Jerusalem","children":[],"payload":{"lines":"27,28"}},{"content":"Esther: The Story of Jewish Deliverance in Persia","children":[],"payload":{"lines":"28,30"}}],"payload":{"lines":"20,21"}},{"content":"The Wisdom Literature","children":[{"content":"Job: The Problem of Suffering","children":[],"payload":{"lines":"31,32"}},{"content":"Psalms: Worship and Prayer","children":[],"payload":{"lines":"32,33"}},{"content":"Proverbs: Wisdom in Everyday Life","children":[],"payload":{"lines":"33,34"}},{"content":"Ecclesiastes: The Search for Meaning","children":[],"payload":{"lines":"34,35"}},{"content":"Song of Solomon: Love Poetry","children":[],"payload":{"lines":"35,37"}}],"payload":{"lines":"30,31"}},{"content":"The Major Prophets","children":[{"content":"Isaiah: Judgement and Hope","children":[],"payload":{"lines":"38,39"}},{"content":"Jeremiah: Warnings and Promises","children":[],"payload":{"lines":"39,40"}},{"content":"Lamentations: Mourning Over the Fall of Jerusalem","children":[],"payload":{"lines":"40,41"}},{"content":"Ezekiel: Visions and Prophecies","children":[],"payload":{"lines":"41,42"}},{"content":"Daniel: Faithfulness and Prophecy in Exile","children":[],"payload":{"lines":"42,44"}}],"payload":{"lines":"37,38"}},{"content":"The Minor Prophets","children":[{"content":"Hosea: Faithfulness to God","children":[],"payload":{"lines":"45,46"}},{"content":"Joel: The Day of the Lord","children":[],"payload":{"lines":"46,47"}},{"content":"Amos: Social Justice and God's Judgement","children":[],"payload":{"lines":"47,48"}},{"content":"Obadiah: Edom's Judgment","children":[],"payload":{"lines":"48,49"}},{"content":"Jonah: Mercy and Repentance","children":[],"payload":{"lines":"49,50"}},{"content":"Micah: Justice and Restoration","children":[],"payload":{"lines":"50,51"}},{"content":"Nahum: The Fall of Nineveh","children":[],"payload":{"lines":"51,52"}},{"content":"Habakkuk: Faith in Time of Injustice","children":[],"payload":{"lines":"52,53"}},{"content":"Zephaniah: The Coming of the Lord","children":[],"payload":{"lines":"53,54"}},{"content":"Haggai: Rebuilding the Temple","children":[],"payload":{"lines":"54,55"}},{"content":"Zechariah: Visions and Prophecies","children":[],"payload":{"lines":"55,56"}},{"content":"Malachi: Covenant Faithfulness","children":[],"payload":{"lines":"56,58"}}],"payload":{"lines":"44,45"}}],"payload":{"lines":"12,13"}},{"content":"Themes and Messages","children":[{"content":"Covenant Relationship between God and Israel","children":[],"payload":{"lines":"59,60"}},{"content":"Law, Worship, and Sacrifice","children":[],"payload":{"lines":"60,61"}},{"content":"Prophecy and Fulfillment","children":[],"payload":{"lines":"61,62"}},{"content":"Wisdom and Morality","children":[],"payload":{"lines":"62,63"}},{"content":"Justice and Redemption","children":[],"payload":{"lines":"63,65"}}],"payload":{"lines":"58,59"}},{"content":"The Old Testament in Later Religious Thought","children":[{"content":"Influence on Christianity and New Testament","children":[],"payload":{"lines":"66,67"}},{"content":"Jewish Interpretations and Traditions","children":[],"payload":{"lines":"67,68"}},{"content":"Messianic Expectations","children":[],"payload":{"lines":"68,70"}}],"payload":{"lines":"65,66"}},{"content":"Conclusion","children":[{"content":"Legacy and Continual Relevance","children":[],"payload":{"lines":"71,72"}},{"content":"Theological and Moral Teachings","children":[],"payload":{"lines":"72,73"}},{"content":"The Old Testament in Modern Scholarship and Culture","children":[],"payload":{"lines":"73,74"}}],"payload":{"lines":"70,71"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

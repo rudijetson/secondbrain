@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"New Testament","children":[{"content":"Historical Context","children":[{"content":"Jewish Background","children":[{"content":"Influences from Judaism and Jewish traditions.","children":[],"payload":{"lines":"4,5"}},{"content":"Written during Roman occupation of Judea.","children":[],"payload":{"lines":"5,6"}}],"payload":{"lines":"3,4"}},{"content":"Hellenistic Influence","children":[{"content":"Impact of Greek culture and language.","children":[],"payload":{"lines":"7,8"}},{"content":"New Testament written predominantly in Koine Greek.","children":[],"payload":{"lines":"8,9"}}],"payload":{"lines":"6,7"}},{"content":"Early Christian Communities","children":[{"content":"Texts reflect the concerns and issues within early Christian groups.","children":[],"payload":{"lines":"10,11"}},{"content":"Formation of texts influenced by missionary activities, particularly by Paul.","children":[],"payload":{"lines":"11,13"}}],"payload":{"lines":"9,10"}}],"payload":{"lines":"2,3"}},{"content":"Structure of the New Testament","children":[{"content":"The Gospels","children":[{"content":"<strong>Matthew, Mark, Luke, John</strong>: Stories of Jesus Christ's life, teaching, death, and resurrection.","children":[],"payload":{"lines":"15,16"}}],"payload":{"lines":"14,15"}},{"content":"Acts of the Apostles","children":[{"content":"Details the early church's history and spread of Christianity after Jesus's ascension.","children":[],"payload":{"lines":"17,18"}}],"payload":{"lines":"16,17"}},{"content":"Epistles","children":[{"content":"<strong>Pauline Epistles</strong>: Letters written by Paul to various early Christian communities.","children":[],"payload":{"lines":"19,20"}},{"content":"<strong>General Epistles</strong>: Letters written by other apostles or early Christian leaders.","children":[],"payload":{"lines":"20,21"}}],"payload":{"lines":"18,19"}},{"content":"The Book of Revelation","children":[{"content":"Apocalyptic literature predicting the future and the second coming of Jesus.","children":[],"payload":{"lines":"22,24"}}],"payload":{"lines":"21,22"}}],"payload":{"lines":"13,14"}},{"content":"Key Themes","children":[{"content":"Kingdom of God","children":[{"content":"Central message of Jesus's teachings.","children":[],"payload":{"lines":"26,27"}},{"content":"Represents both a present reality and future hope.","children":[],"payload":{"lines":"27,28"}}],"payload":{"lines":"25,26"}},{"content":"Covenant and Salvation","children":[{"content":"New covenant established through the death and resurrection of Jesus.","children":[],"payload":{"lines":"29,30"}},{"content":"Emphasis on faith in Jesus as the path to salvation.","children":[],"payload":{"lines":"30,31"}}],"payload":{"lines":"28,29"}},{"content":"Ethics and Morality","children":[{"content":"Teachings on love, forgiveness, and ethical living.","children":[],"payload":{"lines":"32,33"}},{"content":"Calls for social justice and compassion.","children":[],"payload":{"lines":"33,34"}}],"payload":{"lines":"31,32"}},{"content":"Eschatology","children":[{"content":"Concerns about the end times and the fate of humanity.","children":[],"payload":{"lines":"35,36"}},{"content":"Promises of eternal life for believers.","children":[],"payload":{"lines":"36,38"}}],"payload":{"lines":"34,35"}}],"payload":{"lines":"24,25"}},{"content":"Influence and Legacy","children":[{"content":"The Development of Christian Doctrine","children":[{"content":"New Testament writings foundational to Christian beliefs and practices.","children":[],"payload":{"lines":"40,41"}},{"content":"Councils and creeds established based on interpretations of these texts.","children":[],"payload":{"lines":"41,42"}}],"payload":{"lines":"39,40"}},{"content":"Influence on Western Culture","children":[{"content":"Shaped moral and ethical views.","children":[],"payload":{"lines":"43,44"}},{"content":"Influenced law, politics, arts, and literature.","children":[],"payload":{"lines":"44,45"}}],"payload":{"lines":"42,43"}},{"content":"Ecumenical and Interfaith Dialogue","children":[{"content":"Source of both division and unity among different Christian denominations.","children":[],"payload":{"lines":"46,47"}},{"content":"Engagement with Judaism, Islam, and other religions in dialogues about shared values and contested beliefs.","children":[],"payload":{"lines":"47,49"}}],"payload":{"lines":"45,46"}}],"payload":{"lines":"38,39"}},{"content":"Textual Criticism and Translation","children":[{"content":"Manuscript Tradition","children":[{"content":"Thousands of ancient manuscripts, with variations among them.","children":[],"payload":{"lines":"51,52"}},{"content":"Efforts to reconstruct the most accurate text.","children":[],"payload":{"lines":"52,53"}}],"payload":{"lines":"50,51"}},{"content":"Translation Challenges","children":[{"content":"Nuances of ancient Greek and contextual meanings lost in translation.","children":[],"payload":{"lines":"54,55"}},{"content":"Modern translations aim to balance literal accuracy with readability.","children":[],"payload":{"lines":"55,56"}}],"payload":{"lines":"53,54"}},{"content":"Interpretation Variations","children":[{"content":"Different Christian denominations emphasize different aspects.","children":[],"payload":{"lines":"57,58"}},{"content":"Debates over the meaning of key passages and terms.","children":[],"payload":{"lines":"58,59"}}],"payload":{"lines":"56,57"}}],"payload":{"lines":"49,50"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

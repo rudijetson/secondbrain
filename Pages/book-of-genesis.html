@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"The Book of Genesis","children":[{"content":"Introduction","children":[{"content":"Overview of Genesis","children":[],"payload":{"lines":"4,5"}},{"content":"Importance in the Abrahamic Religions","children":[],"payload":{"lines":"5,6"}},{"content":"Structure and Composition","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"2,3"}},{"content":"Part 1: The Primeval History (Chapters 1-11)","children":[{"content":"Creation","children":[{"content":"The Creation of the World","children":[],"payload":{"lines":"11,12"}},{"content":"The Creation of Man and Woman","children":[],"payload":{"lines":"12,13"}},{"content":"The Garden of Eden","children":[],"payload":{"lines":"13,15"}}],"payload":{"lines":"10,11"}},{"content":"The Fall","children":[{"content":"The Temptation and Fall of Man","children":[],"payload":{"lines":"16,17"}},{"content":"Consequences of the Fall","children":[],"payload":{"lines":"17,19"}}],"payload":{"lines":"15,16"}},{"content":"Early Humanity","children":[{"content":"Cain and Abel: The First Murder","children":[],"payload":{"lines":"20,21"}},{"content":"Descendants of Adam","children":[],"payload":{"lines":"21,22"}},{"content":"The Longevity of Early Humans","children":[],"payload":{"lines":"22,24"}}],"payload":{"lines":"19,20"}},{"content":"The Great Flood","children":[{"content":"Wickedness of Humanity","children":[],"payload":{"lines":"25,26"}},{"content":"Noah’s Ark and the Flood","children":[],"payload":{"lines":"26,27"}},{"content":"Covenant with Noah","children":[],"payload":{"lines":"27,29"}}],"payload":{"lines":"24,25"}},{"content":"The Tower of Babel","children":[{"content":"Human Pride and God’s Intervention","children":[],"payload":{"lines":"30,31"}},{"content":"The Scattering of Peoples","children":[],"payload":{"lines":"31,33"}}],"payload":{"lines":"29,30"}}],"payload":{"lines":"8,9"}},{"content":"Part 2: The Patriarchal History (Chapters 12-50)","children":[{"content":"Abraham’s Journey","children":[{"content":"Call of Abram (Abraham)","children":[],"payload":{"lines":"36,37"}},{"content":"Covenant with Abraham","children":[],"payload":{"lines":"37,38"}},{"content":"Isaac’s Birth and Sacrifice","children":[],"payload":{"lines":"38,40"}}],"payload":{"lines":"35,36"}},{"content":"Isaac and His Family","children":[{"content":"Isaac’s Marriage to Rebekah","children":[],"payload":{"lines":"41,42"}},{"content":"The Birth of Esau and Jacob","children":[],"payload":{"lines":"42,43"}},{"content":"Jacob’s Deception","children":[],"payload":{"lines":"43,45"}}],"payload":{"lines":"40,41"}},{"content":"Jacob’s Legacy","children":[{"content":"Jacob's Journey and Visions","children":[],"payload":{"lines":"46,47"}},{"content":"The Twelve Tribes of Israel","children":[],"payload":{"lines":"47,48"}},{"content":"Joseph Sold into Slavery by Brothers","children":[],"payload":{"lines":"48,50"}}],"payload":{"lines":"45,46"}},{"content":"The Story of Joseph","children":[{"content":"Joseph in Egypt","children":[],"payload":{"lines":"51,52"}},{"content":"The Rise of Joseph","children":[],"payload":{"lines":"52,53"}},{"content":"The Famine and Family Reunion","children":[],"payload":{"lines":"53,55"}}],"payload":{"lines":"50,51"}}],"payload":{"lines":"33,34"}},{"content":"Themes in Genesis","children":[{"content":"Covenant and Promise","children":[],"payload":{"lines":"57,58"}},{"content":"Sin and Redemption","children":[],"payload":{"lines":"58,59"}},{"content":"Family and Inheritance","children":[],"payload":{"lines":"59,60"}},{"content":"Faith in God","children":[],"payload":{"lines":"60,62"}}],"payload":{"lines":"55,56"}},{"content":"Conclusion","children":[{"content":"The Legacy of Genesis","children":[],"payload":{"lines":"64,65"}},{"content":"Genesis’ Place in Religious and Cultural Contexts","children":[],"payload":{"lines":"65,66"}},{"content":"The Theological and Moral Lessons of Genesis","children":[],"payload":{"lines":"66,67"}}],"payload":{"lines":"62,63"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>

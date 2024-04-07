@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.16.0/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.16.0/dist/index.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const {
+    el
+  } = markmap.Toolbar.create(mm);
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root2, jsonOptions) => {
+              const markmap = getMarkmap();
+              window.mm = markmap.Markmap.create(
+                "svg#mindmap",
+                (getOptions || markmap.deriveOptions)(jsonOptions),
+                root2
+              );
+            })(() => window.markmap,null,{"content":"Christian Denominations","children":[{"content":"Catholicism","children":[{"content":"Roman Catholic Church","children":[{"content":"Claims apostolic succession from Saint Peter.","children":[],"payload":{"lines":"4,5"}},{"content":"Led by the Pope in Vatican City.","children":[],"payload":{"lines":"5,6"}},{"content":"Holds the largest number of adherents among Christian denominations.","children":[],"payload":{"lines":"6,8"}}],"payload":{"lines":"3,4"}},{"content":"Eastern Catholic Churches","children":[{"content":"In full communion with the Pope but follow Eastern Christian liturgies.","children":[],"payload":{"lines":"9,10"}},{"content":"Include the Byzantine, Alexandrian, Armenian, Chaldean, and Maronite rites.","children":[],"payload":{"lines":"10,12"}}],"payload":{"lines":"8,9"}}],"payload":{"lines":"2,3"}},{"content":"Eastern Orthodoxy","children":[{"content":"Greek Orthodox Church","children":[{"content":"Practices the Byzantine Rite.","children":[],"payload":{"lines":"14,15"}},{"content":"Significant presence in Greece, Cyprus, and the Greek diaspora.","children":[],"payload":{"lines":"15,17"}}],"payload":{"lines":"13,14"}},{"content":"Russian Orthodox Church","children":[{"content":"Largest of the Orthodox Churches.","children":[],"payload":{"lines":"18,19"}},{"content":"Has a significant influence on the culture and history of Russia.","children":[],"payload":{"lines":"19,21"}}],"payload":{"lines":"17,18"}},{"content":"Serbian Orthodox Church","children":[{"content":"Known for its traditionalist approach and preservation of the Serbian heritage.","children":[],"payload":{"lines":"22,23"}},{"content":"Played a vital role in the national identity of Serbs.","children":[],"payload":{"lines":"23,25"}}],"payload":{"lines":"21,22"}}],"payload":{"lines":"12,13"}},{"content":"Protestantism","children":[{"content":"Lutheranism","children":[{"content":"Founded by Martin Luther during the Reformation in the 16th century.","children":[],"payload":{"lines":"27,28"}},{"content":"Emphasizes justification by faith alone and the authority of Scripture.","children":[],"payload":{"lines":"28,29"}},{"content":"Notable bodies include the Evangelical Lutheran Church in America (ELCA) and the Lutheran Church—Missouri Synod (LCMS).","children":[],"payload":{"lines":"29,31"}}],"payload":{"lines":"26,27"}},{"content":"Anglicanism","children":[{"content":"Originated with the English Reformation.","children":[],"payload":{"lines":"32,33"}},{"content":"Combines Catholic and Reformed traditions.","children":[],"payload":{"lines":"33,34"}},{"content":"The Church of England is the mother church of the Anglican Communion.","children":[],"payload":{"lines":"34,36"}}],"payload":{"lines":"31,32"}},{"content":"Reformed Churches","children":[{"content":"Rooted in the teachings of John Calvin and other Reformation-era theologians.","children":[],"payload":{"lines":"37,38"}},{"content":"Emphasize the sovereignty of God, the authority of the Scriptures, and the importance of grace through faith.","children":[],"payload":{"lines":"38,39"}},{"content":"Includes Presbyterian, Congregationalist, and certain Continental Reformed churches.","children":[],"payload":{"lines":"39,41"}}],"payload":{"lines":"36,37"}},{"content":"Baptist","children":[{"content":"Characterized by the belief in believer's baptism and congregational governance.","children":[],"payload":{"lines":"42,43"}},{"content":"Emphasizes the autonomy of local congregations and the authority of the Bible.","children":[],"payload":{"lines":"43,44"}},{"content":"Notable for its diversity, ranging from conservative to progressive.","children":[],"payload":{"lines":"44,46"}}],"payload":{"lines":"41,42"}},{"content":"Methodist","children":[{"content":"Derived from the teachings of John Wesley.","children":[],"payload":{"lines":"47,48"}},{"content":"Known for the doctrine of sanctification and the emphasis on a personal experience of faith.","children":[],"payload":{"lines":"48,49"}},{"content":"The United Methodist Church is one of the largest bodies within Methodism.","children":[],"payload":{"lines":"49,51"}}],"payload":{"lines":"46,47"}},{"content":"Pentecostalism","children":[{"content":"Emphasizes the work of the Holy Spirit and the experience of spiritual gifts, including speaking in tongues.","children":[],"payload":{"lines":"52,53"}},{"content":"Known for vibrant and expressive worship.","children":[],"payload":{"lines":"53,54"}},{"content":"Significant movements include the Assemblies of God and the Church of God in Christ.","children":[],"payload":{"lines":"54,56"}}],"payload":{"lines":"51,52"}}],"payload":{"lines":"25,26"}},{"content":"Non-Trinitarian Denominations","children":[{"content":"Jehovah's Witnesses","children":[{"content":"Rejects the doctrine of the Trinity.","children":[],"payload":{"lines":"58,59"}},{"content":"Known for door-to-door evangelism and refusal of military service and blood transfusions.","children":[],"payload":{"lines":"59,60"}},{"content":"Uses its own translation of the Bible, the New World Translation.","children":[],"payload":{"lines":"60,62"}}],"payload":{"lines":"57,58"}},{"content":"Church of Jesus Christ of Latter-day Saints (LDS)","children":[{"content":"Also known as Mormons.","children":[],"payload":{"lines":"63,64"}},{"content":"Believes in additional scriptures, including the Book of Mormon.","children":[],"payload":{"lines":"64,65"}},{"content":"Emphasizes continuing revelation, family history, and missionary work.","children":[],"payload":{"lines":"65,67"}}],"payload":{"lines":"62,63"}},{"content":"Unitarian Universalism","children":[{"content":"Rejects the doctrine of the Trinity in favor of a unitary understanding of God.","children":[],"payload":{"lines":"68,69"}},{"content":"Emphasizes religious pluralism and a liberal approach to religious beliefs and ethics.","children":[],"payload":{"lines":"69,70"}}],"payload":{"lines":"67,68"}}],"payload":{"lines":"56,57"}}],"payload":{"lines":"0,1"}},{})</script>
+</body>
+</html>
